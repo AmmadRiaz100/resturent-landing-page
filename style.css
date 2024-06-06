@@ -1,0 +1,396 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("images/background\ image.jpg");
+  background-size: cover;
+  height: 2500px;
+}
+.mian-page {
+  height: 92%;
+  width: 90%;
+  background-color: transparent;
+  backdrop-filter: blur(80px);
+  margin: 80px;
+  border-radius: 50px;
+}
+header {
+  width: 100%;
+  height: 200px;
+  /* background-color: rgb(255, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 50px;
+  cursor: pointer;
+}
+header h1 {
+  margin: 6rem;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.shop-bg {
+  background-color: black;
+  height: 72px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  border-radius: 30px 20px 50px 10px;
+  transition: 0.3s;
+}
+.shop-bg:hover {
+  background-color: transparent;
+  border: 1px solid beige;
+}
+.content {
+  width: 100%;
+
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.left-con {
+  width: 40%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  left: 100px;
+  position: relative;
+}
+.left-con h1 {
+  font-size: 60px;
+  width: 500px;
+  font-family: sans-serif;
+}
+.left-con button {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 23px;
+  height: 81px;
+  width: 53%;
+  font-family: sans-serif;
+  border: none;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 25px 15px 0px 25px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.left-con button:hover {
+  background: transparent;
+  color: rgb(231, 224, 224);
+}
+.left-con img {
+  width: 50px;
+  cursor: pointer;
+}
+.img-icon {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.blur-bag {
+  height: 100px;
+  width: 140px;
+  background-color: rgba(245, 245, 245, 0.377);
+  backdrop-filter: blur(900px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+.blur-bag:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  
+}
+.right-con {
+  width: 60%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-con img {
+  height: 800px;
+  position: relative;
+  bottom: 110px;
+  cursor: pointer;
+}
+.delicious {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.left-del {
+  width: 50%;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: center;
+  position: relative;
+}
+.blur-bg-del-food {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(235, 225, 225, 0.308);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+}
+.blur-bg-del-food:hover {
+  background-color: rgba(95, 79, 79, 0.705);
+  border: 1px solid rgb(56, 39, 39);
+}
+
+.img-bar-bq {
+  width: 210px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 150px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.img-bar-bq:hover {
+  transform: rotate(90);
+}
+/* .hover-rotate {
+  overflow: hidden;
+  margin: 8px;
+  min-width: 240px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.hover-rotate img {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hover-rotate:hover img {
+  transform: scale(1.3) rotate(5deg);
+} */
+
+.arrows {
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 26px;
+  cursor: pointer;
+}
+.blur-bg-del-food h2 {
+  font: 800;
+  font-size: medium;
+  font-family: sans-serif;
+}
+.cart-type {
+  display: flex;
+  position: absolute;
+  position: relative;
+  height: 30%;
+  flex-direction: column;
+}
+
+.side-font img {
+  width: 30px;
+  cursor: pointer;
+}
+.shop-bg2 {
+  background-color: black;
+  height: 50px;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13px;
+  border-radius: 30px 20px 50px 10px;
+}
+.side-font {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 6rem;
+}
+.cart-type p {
+  margin: 0;
+  font-family: sans-serif;
+}
+.cart-type h3 {
+  font-family: sans-serif;
+}
+
+.cart-type h2 {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.fvrt {
+  position: relative;
+  bottom: 4rem;
+}
+.right-del {
+  height: 240px;
+  width: 50%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.data {
+  width: 400px;
+  font-family: sans-serif;
+}
+.skills {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.data p{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.left-skill {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-skill h1 {
+  width: 500px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.left-skill p {
+  width: 500px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.right-skill {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-skill img {
+  width: 500px;
+  cursor: pointer;
+  transition: transform 0.60s ease-in-out;
+}
+.right-skill img:hover{
+transform: rotate(60deg);
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+}
+.taste {
+  position: relative;
+  top: 57px;
+}
+.taste h2 {
+  font-size: xx-large;
+  font-family: sans-serif;
+}
+.our-services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.our-services h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.our-company h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.our-company {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Address h1 {
+  font-size: 30p;
+  font-family: sans-serif;
+}
+.Address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h2 {
+  font-family: sans-serif;
+  font-family: sans-serif;
+  margin: 5px;
+  font-weight: 200;
+}
+.f-imgs-sl {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  bottom: 12rem;
+  position: relative;
+}
+.f-imgs-sl img {
+  width: 40px;
+  cursor: pointer;
+}
+.f-imgs-sl p{
+font-size: 20px;
+cursor: pointer;
+}
+.line{
+  height: 2px;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 300px;
+}
